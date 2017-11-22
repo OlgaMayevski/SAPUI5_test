@@ -1,0 +1,9 @@
+<mvc:View controllerName="sap.training.controller.MyXMLView" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	
+<Text text="Это xml view" class="sapUiSmallMarginTop" />
+<CheckBox id="idCheckBox" select="onCBSelect" text="No" />
+
+<mvc:JSView id="idJSView" viewName="sap.training.view.MyJSView" />
+
+</mvc:View>
